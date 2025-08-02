@@ -35,9 +35,22 @@ const Accordion = () => {
 
     return (
     <div className='wrapper'>
-        <button onClick={() =>setMultiSelectionEnabled(!multiSelectionEnabled)}>
+        <button
+            onClick={() => {
+                setMultiSelectionEnabled((prev) => {
+                    const newValue = !prev;
+                    if (!newValue) {
+                        setMultipleSelected([]);
+                    }
+                    return newValue;
+                });
+            }}
+        >
             Enable Multiselection
         </button>
+        {/* <button onClick={() =>setMultiSelectionEnabled(!multiSelectionEnabled)}>
+            Enable Multiselection
+        </button> */}
         <span>Multiselection enabled: {multiSelectionEnabled.toString()}</span>
         <div className='accordion'>
             {
