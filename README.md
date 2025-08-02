@@ -6,3 +6,4 @@ Focus isn't to make it look pretty, just functional and to the point as a way to
 ## Projects
 
 1. **Accordion** – Toggleable single/multi-item selection.
+2. **Random HEX/RGB COLOR GEN.** - Generate random colors hex or rgb colors, bg change and value display.
