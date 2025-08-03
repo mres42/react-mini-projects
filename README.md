@@ -7,3 +7,4 @@ Focus isn't to make it look pretty, just functional and to the point as a way to
 
 1. **Accordion** – Toggleable single/multi-item selection.
 2. **Random HEX/RGB COLOR GEN.** - Generate random colors hex or rgb colors, bg change and value display.
+3. **Star Rating** - Star icons for rating you hover to fill and click to select.
